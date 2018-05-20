@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gabstv/go-monero/walletrpc"
+	"github.com/shopglobal/go-monero/walletrpc"
 	"github.com/olahol/melody"
 )
 
