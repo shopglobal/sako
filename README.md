@@ -2,7 +2,7 @@
 
 A self-hosted Monero web-interface. **WIP**
 
-![](https://punpun.moe/d3uc.png)
+![](https://punpun.moe/9N93.png)
 
 
 ## SYNOPSIS
@@ -13,3 +13,8 @@ sako [arguments]
 ## AUTHORS
 
 Camille Scholtz
+
+
+## DONATE
+
+`43N66aiA9392qz7pTFAfSe1qJxrxDACDhMvcTVv5uPkWK37XSCMxaeqg2PTp8NeZMuaGcjatuQCaoCFrUdRxuQX71mBnwvr`

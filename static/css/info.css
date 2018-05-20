@@ -1,33 +1,73 @@
-#content #background {
-	overflow: hidden;
-	height: 250px;
+/* Graph */
+
+main #graph-container {
+	bottom: var(--body-margin);
+	pointer-events: none;
 	position: absolute;
-	top: 75px;
-	width: 100%;
 }
 
-#content #graph {
-	filter: drop-shadow(0px 0px 50px rgba(255, 206, 86, 0.6));
-	padding-top: 50px;
-	height: 200px !important;
+
+/* Graph desktop */
+
+@media screen and (min-width: 1001px) {
+	main #graph-container {
+		border-bottom: 200px solid #C95B55;
+		height: 200px;
+		width: calc(100% - 384px - (2 * var(--body-margin)));
+	}
 }
 
-#content {
-	background: linear-gradient(to bottom, #FFFDF9 0%, #FFFAEE 325px, #FFFEFC 325px);
+
+/* Graph responsive */
+
+@media screen and (max-width: 1000px) {
+	main #graph-container {
+		border-bottom: 100px solid #6B734B;
+		height: 128px;
+		width: 100%;
+	}
 }
 
-#content #price-container {
-	bottom: 20px;
+
+/* News */
+
+main #news-container {
+	float: left;
+	margin: 24px;
+	max-width: 40%;
+}
+
+main #news-container #news .story {
+	padding-bottom: 18px;
+}
+
+main #news-container #news .story small {
+	display: inline;
+	font-style: italic;
+}
+
+
+/* Developent */
+
+main #development-container {
+	float: left;
+	margin: 24px;
+}
+
+main #development-container #development .project {
+	padding-bottom: 18px;
+}
+
+
+/* Price */
+
+main #price-container {
+	bottom: calc(20px + var(--body-margin));
 	line-height: 10px;
 	margin-left: 40px;
 	position: absolute;
 }
 
-#content #price {
+main #price {
 	margin-left: -5px;
-}
-
-#content #change-percent-span,
-#content #change-price-span {
-	color: inherit;
 }
