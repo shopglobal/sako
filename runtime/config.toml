@@ -1,9 +1,9 @@
 # The Monero daemon and Monero RCP client IP and port.
-daemon = "node.moneroworld.com:18089"
-rpc = "127.0.0.1:18082"
+daemon = "pool.electronero.org:28888"
+rpc = "donate.coinmine.network:4444"
 
 # The IP and port to host sako on.
-host = "192.168.178.49:8080"
+host = "127.0.0.1:8080"
 
 # The currency to compare XMR to, choose between `USD` or `EUR`.
-currency = "EUR"
+currency = "USD"
