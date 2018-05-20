@@ -8,7 +8,7 @@ import (
 	"github.com/gabstv/go-monero/walletrpc"
 	"github.com/gorilla/mux"
 	"github.com/olahol/melody"
-	"github.com/onodera-punpun/sako/monero"
+	"github.com/shopglobal/sako/monero"
 )
 
 var (
