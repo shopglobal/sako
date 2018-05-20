@@ -1,6 +1,6 @@
 # The Monero daemon and Monero RCP client IP and port.
-daemon = "pool.electronero.org:28888"
-rpc = "donate.coinmine.network:4444"
+daemon = "165.227.189.226:28888"
+rpc = "165.227.189.226:4444"
 
 # The IP and port to host sako on.
 host = "165.227.189.226:3231"
@@ -9,8 +9,8 @@ host = "165.227.189.226:3231"
 currency = "USD"
 
 # The Monero daemon and Monero RCP client IP and port.
-Daemon = "pool.electronero.org:28888"
-RPC = "donate.coinmine.network:4444"
+Daemon = "165.227.189.226:28888"
+RPC = "127.0.0.1:4444"
 
 # The IP and port to host sako on.
 Host = "165.227.189.226:3231"
