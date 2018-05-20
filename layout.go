@@ -8,7 +8,7 @@ import (
 
 	"image/color"
 
-	"github.com/gabstv/go-monero/walletrpc"
+	"github.com/shopglobal/go-monero/walletrpc"
 	"github.com/olahol/melody"
 	qrcode "github.com/skip2/go-qrcode"
 )
